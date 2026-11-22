@@ -1,6 +1,6 @@
-# JobRAG
+# ClearFit
 
-[![CI](https://github.com/Rishav-Upadhaya/jobrag/actions/workflows/ci.yml/badge.svg)](https://github.com/Rishav-Upadhaya/jobrag/actions/workflows/ci.yml)
+[![CI](https://github.com/Rishav-Upadhaya/clearfit/actions/workflows/ci.yml/badge.svg)](https://github.com/Rishav-Upadhaya/clearfit/actions/workflows/ci.yml)
 
 Natural-language job search over 1,000 job postings (the LF Jobs dataset). A LangGraph pipeline classifies the question, extracts metadata filters, runs hybrid retrieval (dense vectors + Postgres full-text, fused with Reciprocal Rank Fusion), reranks, writes a grounded answer, and has an LLM judge check that answer against the retrieved context.
 

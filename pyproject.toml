@@ -1,5 +1,5 @@
 [project]
-name = "jobrag"
+name = "clearfit"
 version = "0.1.0"
 description = "Hybrid-retrieval RAG for job search: LangGraph, pgvector + Postgres full-text, RRF, LLM judge."
 readme = "README.md"
